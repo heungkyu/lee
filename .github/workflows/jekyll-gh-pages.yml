@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column; /* 콘텐츠를 세로로 정렬 */
+            justify-content: center; /* 세로 중앙 정렬 */
+            align-items: center;    /* 가로 중앙 정렬 */
+        }
+
+        img {
+            height: auto;           /* 이미지 비율 유지 */
+        }
+    </style>
+</head>
+<body>
+    <img src="https://i.imgur.com/h4DMArE.jpeg" alt="Image 1">
+    <img src="https://i.imgur.com/h2sHdYk.jpeg" alt="Image 2">
+    <a href="https://orgahue.kr/index.html" target="_blank">
+        <img src="https://i.imgur.com/IkB7Xy1.jpeg" alt="Website">
+    </a>
+    <a href="https://www.instagram.com/orgahue_official/" target="_blank">
+        <img src="https://i.imgur.com/XA8P1dF.jpeg" alt="Instagram">
+    </a>
+</body>
+</html>
